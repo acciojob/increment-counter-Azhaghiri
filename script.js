@@ -5,9 +5,9 @@ let counter = document.getElementById("counter");
 let incrementBtn = document.getElementById("incrementBtn");
 
 incrementBtn.addEventListener("click",function () {
-	alert('Current value before increment: ' + counterValue)
-
 	counterValue++;
+	alert('Current value before increment: ' + counterValue)
+ 
 
 	counter.textContent = counterValue;
 })
